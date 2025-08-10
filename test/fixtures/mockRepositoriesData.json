@@ -141,7 +141,7 @@
 						},
 						"viewerPermission": "ADMIN",
 						"isSecurityPolicyEnabled": false,
-						"isPrivateVulnerabilityReportingEnabled": false
+						"hasVulnerabilityAlertsEnabled": false
 					},
 					{
 						"name": "ecma262",
@@ -167,7 +167,7 @@
 						},
 						"viewerPermission": "ADMIN",
 						"isSecurityPolicyEnabled": true,
-						"isPrivateVulnerabilityReportingEnabled": true
+						"hasVulnerabilityAlertsEnabled": true
 					},
 					{
 						"name": "agendas",
