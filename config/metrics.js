@@ -83,8 +83,8 @@ module.exports = {
 		permissions: ['ADMIN', 'MAINTAIN', 'WRITE'],
 	},
 	PrivateVulnerabilityReportingEnabled: {
-		compare: (item, config) => !!config === item.hasVulnerabilityAlertsEnabled,
-		extract: (item) => !!item.hasVulnerabilityAlertsEnabled,
+		compare: (item, config) => !!config === item.hasPrivateVulnerabilityReportingEnabled,
+		extract: (item) => !!item.hasPrivateVulnerabilityReportingEnabled,
 		permissions: ['ADMIN', 'MAINTAIN'],
 	},
 	License: {

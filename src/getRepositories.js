@@ -62,7 +62,6 @@ function generateQuery(endCursor, { f }, perPage = 20) {
 						isFork
 						isPrivate
 						isSecurityPolicyEnabled
-						hasVulnerabilityAlertsEnabled
 						codeOfConduct {
 							name
 						}
